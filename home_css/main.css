@@ -1,0 +1,121 @@
+.face_container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.desc_container{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: inset black 0px 0px 20px -12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    color: black;
+    margin: 15px;
+}
+
+.description{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    margin: 0px 20px 0px 20px
+}
+
+/* 1350px */
+
+@media only screen and (max-width: 1350px) {
+    .face_container {
+        width: 250px;
+        height: 250px;
+    }
+
+    .desc_container{
+        width: 500px;
+        height: 180px;
+    }
+
+    .welcome{
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .description{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .face_container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .desc_container{
+        width: 400px;
+        height: 150px;
+    }
+
+    .welcome{
+        font-size: 25px;
+        margin: 15px;
+    }
+
+    .description{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* 650px */
+
+@media only screen and (max-width: 650px) {
+    .face_container {
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+    }
+
+    .desc_container{
+        width: 200px;
+        height: 80px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .description{
+        display: none;
+    }
+}

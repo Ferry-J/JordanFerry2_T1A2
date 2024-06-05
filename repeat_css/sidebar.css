@@ -1,0 +1,352 @@
+/* social1 */
+
+.social1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: azure;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social1:hover{
+    transform: translate(0px, -15px);
+    width: 135px;
+    height: 135px;
+    margin-bottom: 5px;   
+}
+
+.email{
+    transition: all 0.2s ease-in-out;
+}
+
+.social1:hover .email{
+    width: 90px;
+}
+
+/* social2 */
+
+.social2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: azure;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social2:hover{
+    transform: translate(0px, -15px);
+    width: 135px;
+    height: 135px;
+    margin-bottom: 5px;  
+}
+
+.instagram{
+    transition: all 0.2s ease-in-out;
+}
+
+.social2:hover .instagram{
+    width: 90px;
+}
+
+
+/* social3 */
+
+.social3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: azure;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social3:hover{
+    transform: translate(0px, -15px);
+    width: 135px;
+    height: 135px;
+    margin-bottom: 5px;  
+}
+
+.facebook{
+    transition: all 0.2s ease-in-out;
+}
+
+.social3:hover .facebook{
+    width: 85px;
+}
+
+/* social4 */
+
+.social4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: azure;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social4:hover{
+    transform: translate(0px, -15px);
+    width: 135px;
+    height: 135px;
+    margin-bottom: 5px; 
+}
+
+.github{
+    transition: all 0.2s ease-in-out;
+}
+
+.social4:hover .github{
+    width: 85px;
+}
+
+/* social5 */
+
+.social5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: azure;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social5:hover{
+    transform: translate(0px, -15px);
+    width: 135px;
+    height: 135px;
+    margin-bottom: 5px;    
+}
+
+.linkedin{
+    transition: all 0.2s ease-in-out;
+}
+
+.social5:hover .linkedin{
+    width: 85px;
+}
+
+/* 1350px */
+
+@media only screen and (max-width: 1350px) {
+    
+    .social1 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .email {
+        width: 60px
+    }
+
+    .social2 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .instagram {
+        width: 60px
+    }
+
+    .social3 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .facebook {
+        width: 60px
+    }
+
+    .social4 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .github {
+        width: 60px
+    }
+
+    .social5 {
+        width: 90px;
+        height: 90px;
+    }
+
+    .linkedin {
+        width: 60px
+    }
+
+    /* Transforms */
+
+    .social1:hover{
+        transform: translate(0px, -5px);
+        width: 110px;
+        height: 110px;
+    }
+    
+    .social2:hover{
+        transform: translate(0px, -5px);
+        width: 110px;
+        height: 110px;
+    }
+
+    .social3:hover{
+        transform: translate(0px, -5px);
+        width: 110px;
+        height: 110px;
+    }
+
+    .social4:hover{
+        transform: translate(0px, -5px);
+        width: 110px;
+        height: 110px;
+    }
+
+    .social5:hover{
+        transform: translate(0px, -5px);
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/* 650px */
+
+@media only screen and (max-width:650px){
+    
+    /* social1 */
+
+    .social1 {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .social1:hover{
+        transform: translate(0px, -5px);
+        width: 60px;
+        height: 60px;
+    }
+    
+    .email{
+        width: 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+   .social1:hover .email{
+        width: 40px;
+   }
+
+   /* social2 */
+
+    .social2{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .social2:hover{
+        transform: translate(0px, -5px);
+        width: 60px;
+        height: 60px;
+    }
+
+    .instagram{
+        width: 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+   .social2:hover .instagram{
+        width: 40px;
+   }
+    
+    /* social3 */
+
+    .social3{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .social3:hover{
+        transform: translate(0px, -5px);
+        width: 60px;
+        height: 60px;
+    }
+
+    .facebook{
+        width: 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+   .social3:hover .facebook{
+        width: 40px;
+   }
+
+   /* social4 */
+
+    .social4{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .social4:hover{
+        transform: translate(0px, -5px);
+        width: 60px;
+        height: 60px;
+    }
+
+    .github{
+        width: 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+   .social4:hover .github{
+        width: 40px;
+   }
+
+   /* social5 */
+
+    .social5{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .social5:hover{
+        transform: translate(0px, -5px);
+        width: 60px;
+        height: 60px;
+    }
+
+    .linkedin{
+        width: 30px;
+        transition: all 0.2s ease-in-out;
+    }
+
+   .social5:hover .linkedin{
+        width: 40px;
+   }
+}
