@@ -35,3 +35,30 @@ label{
     vertical-align: text-top;
     border-radius: 5px;
 }
+
+.form_button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.send{
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    display: inline-block;
+    width: 150px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.send:hover{
+    background-color: antiquewhite;
+}
