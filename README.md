@@ -182,11 +182,13 @@ Users can engage with sending a message after filling in the submission form in 
 
 ## P.S
 
+To whom it may concern,
+
 My deepest apologies for the 4 days late submission. 
 
 My family and I had actually been busy with moving into a new house when work for this assessment had begun. Financial stress overcame me as the only people currently working in my family are my mother and I. Many appointments to house inspections were done all through the month of May and many more shifts were picked up at work to fulfill financial needs for moving. 
 
-At the time, it didn't occur to me that I could have requested for an assignment extension but im not really sure if this is even a valid reason for one. I've only just recently settled in after moving into the new house and was finally able to set up my PC for study. In any case, I would still like to apologise and will ensure future submissions are submitted on time. 
+At the time, it didn't occur to me that I could have requested for an assignment extension but im not really sure if this is even a valid reason for one. I've only just recently settled in after moving into the new house a few days ago as of (06/06/2024) and was finally able to set up my PC for study. In any case, I would still like to apologise and will ensure future submissions are submitted on time. 
 
 
 Kind regards,
